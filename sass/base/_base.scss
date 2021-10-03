@@ -1,0 +1,15 @@
+@use '../abstracts' as *;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: $font-family;
+    color: $font;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: $primary;
+}

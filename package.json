@@ -1,0 +1,11 @@
+{
+  "name": "catdotcom",
+  "version": "1.0.0",
+  "description": "A Website for cats",
+  "main": "index.html",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "author": "Celine Obringer",
+  "license": "MIT"
+}
