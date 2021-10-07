@@ -1,3 +1,8 @@
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -17,9 +22,29 @@ header {
   top: 1.5rem;
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+}
+
+main {
+  margin: auto;
+  margin-top: 10vh;
+  width: 90vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+}
+
+.reddot {
+  margin: auto;
+  width: 0.5rem;
+  height: 0.5rem;
+  border: 0.25rem solid #FF0000;
+  background-color: #00FF00;
+  border-radius: 50%;
+  animation: blink 1s infinite alternate ease-in-out;
 }
 
 footer {

@@ -1,0 +1,19 @@
+@use '../abstracts' as *;
+
+main {
+    margin: auto;
+    margin-top: 10vh;
+    width: 90vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+.reddot {
+    margin: auto;
+    width: 0.5rem;
+    height: 0.5rem;
+    border: 0.25rem solid $dotborder;
+    background-color: $dot;
+    border-radius: 50%;
+    animation: blink 1s infinite alternate ease-in-out;
+}
