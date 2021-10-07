@@ -17,3 +17,10 @@ main {
     border-radius: 50%;
     animation: blink 1s infinite alternate ease-in-out;
 }
+.movingdiv {
+    display: flex;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border: none;
+}
