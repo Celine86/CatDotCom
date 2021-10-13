@@ -1,0 +1,12 @@
+@use '../abstracts' as *;
+
+.cursor {
+    color: $font;
+    width: 0.50rem;
+    height: 0.50rem;
+    border: 0.25rem solid $font;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}

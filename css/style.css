@@ -15,6 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #222023;
+  cursor: none;
 }
 
 header {
@@ -26,6 +27,17 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+.cursor {
+  color: #FFFFFF;
+  width: 0.5rem;
+  height: 0.5rem;
+  border: 0.25rem solid #FFFFFF;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
 }
 
 main {
@@ -49,6 +61,7 @@ main {
 
 .movingdiv {
   display: flex;
+  margin: auto;
   justify-content: center;
   width: 2rem;
   height: 2rem;

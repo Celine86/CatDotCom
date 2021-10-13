@@ -12,13 +12,14 @@ main {
     margin: auto;
     width: 0.5rem;
     height: 0.5rem;
-    border: 0.25rem solid $dotborder;
+    border: 0.25rem solid $dot;
     background-color: $dot;
     border-radius: 50%;
     animation: blink 1s infinite alternate ease-in-out;
 }
 .movingdiv {
     display: flex;
+    margin: auto;
     justify-content: center;
     width: 2rem;
     height: 2rem;
