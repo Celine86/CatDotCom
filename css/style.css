@@ -15,7 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #222023;
-  cursor: none;
+  cursor: grab;
 }
 
 header {
@@ -29,22 +29,21 @@ header {
   align-items: center;
 }
 
-.cursor {
-  color: #FFFFFF;
-  width: 0.5rem;
-  height: 0.5rem;
-  border: 0.25rem solid #FFFFFF;
-  border-radius: 50%;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-}
+/* @use '../abstracts' as *;
 
+.cursor {
+    color: $font;
+    width: 0.50rem;
+    height: 0.50rem;
+    border: 0.25rem solid $font;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}*/
 main {
   margin: auto;
   margin-top: 10vh;
-  width: 90vw;
-  height: 70vh;
   display: flex;
   justify-content: center;
 }
